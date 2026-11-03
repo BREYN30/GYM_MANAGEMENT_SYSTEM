@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run ENCORE GymApp",
+            "request": "launch",
+            "mainClass": "gym.GymApp",
+            "projectName": "encore-gym-management",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Run Database",
+            "request": "launch",
+            "mainClass": "gym.Database",
+            "projectName": "encore-gym-management",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        }
+    ]
+}

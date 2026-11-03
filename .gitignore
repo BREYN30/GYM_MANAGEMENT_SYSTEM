@@ -1,0 +1,8 @@
+.DS_Store
+*.db
+*.db-bak
+*.bak
+.env
+.env.*
+!.env.example
+target/
